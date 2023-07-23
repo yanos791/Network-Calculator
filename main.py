@@ -9,4 +9,5 @@ choice = input("Enter your choice: ")
 if choice == "1":
     subprocess.run(["python", "prefix-subnet.py"])
 if choice == "2":
+    subprocess.run(["python", "subwild-prefix.py"])
 if choice == "3":
