@@ -10,7 +10,7 @@ if mask_choice == "1":
     mask_binary = ''
 
     for i in mask_parts:
-        mask_binary += '.'.join(bin(int(i))[2:].zfill(8))
+        mask_binary += '.'.join(bin(int(i))[2:])
 
     prefix = mask_binary.count('1')
 

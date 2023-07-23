@@ -11,3 +11,4 @@ if choice == "1":
 if choice == "2":
     subprocess.run(["python", "subwild-prefix.py"])
 if choice == "3":
+    subprocess.run(["python", "subnet-calculator.py"])
