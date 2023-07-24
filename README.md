@@ -10,4 +10,4 @@
   - Last usable
 
 ## Example
-![](screenshot.png)
+![](screemshot.png)
