@@ -1,4 +1,6 @@
-prefix = int(input("Enter the prefix: "))
+import time
+
+prefix = int(input("\n\033[1mEnter the prefix:\033[0m "))
 basic_subnet_mask = 4294967295
 subnet = basic_subnet_mask - (2 ** (32 - prefix) - 1)
 bin_subnet = bin(subnet)
@@ -27,5 +29,8 @@ for i in range(len(chunks_subnet)):
 chunks_subnet = '.'.join(chunks_subnet)
 chunks_wildcard = '.'.join(chunks_wildcard)
 
-print("The subnet mask is: " + chunks_subnet)
-print("The wildcard mask is: " + chunks_wildcard)
+print("\nThe subnet mask is:   " + "\033[1m" + chunks_subnet + "\033[0m")
+print("The wildcard mask is: " + "\033[1m" + chunks_wildcard + "\033[0m")
+
+print('\nReturning to main menu...\n', end='\r')
+time.sleep(4)
