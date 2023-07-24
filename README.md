@@ -8,3 +8,6 @@
   - Broadcast address
   - First usable
   - Last usable
+
+## Example
+![](screenshot.png)
